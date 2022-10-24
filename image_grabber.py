@@ -54,8 +54,7 @@ class ImageGrabber():
 
     def parse_content(self):
         '''Parses the page to find PNG images using regex.'''
-        # This code could be refactored with smth like BeautifulSoup library
-        # but I was willing to show I can write regular expressions.
+
         rgx = re.compile(r'\<img[^>]{1,}src=[\"\']{1}([^\'\"]+.png)',
                          re.MULTILINE | re.IGNORECASE)
         matches = rgx.finditer(self.body)
