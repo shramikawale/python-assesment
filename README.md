@@ -11,7 +11,7 @@ Web scrapping example utility.
 
 Run as following:
 ```bash
-python3 image_grabber.py --url https://127.0.0.1:8333/ --path ./images --username admin --password 12345
+python3 image_grabber.py --url http://127.0.0.1:8333/ --path ./images --username admin --password 12345
 ```
 The script should use Basic Auth when optional username and password specified.
 The script should support redirections.
