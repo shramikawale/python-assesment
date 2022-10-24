@@ -4,6 +4,8 @@ Web scrapping example utility.
 # Test server environment:
     1. Install basic authentication support:
     ```pip install sauth```
+    ```python3 -m pip install aiohttp```
+    ```python3 -m pip install aiofiles```
     2. Go to the test folder:
     ```cd ./test```
     3. Start simple http server with the command:
